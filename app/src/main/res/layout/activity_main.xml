@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.wear.widget.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="15dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:id="@+id/words"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Welcome"
+            android:textColor="@color/ambient_mode_text"
+            android:textSize="32dp" />
+
+        <Button
+            android:id="@+id/bttn_chrt"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:text="Chart" />
+
+        <Button
+            android:id="@+id/bttn_snk"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:text="Snake" />
+
+
+    </FrameLayout>
+</android.support.wear.widget.BoxInsetLayout>

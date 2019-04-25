@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/blk_7"
+        android:layout_width="4px"
+        android:layout_height="4px"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="125dp"
+        android:src="@color/ambient_mode_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/blk_3"
+        android:layout_width="4px"
+        android:layout_height="4px"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="125dp"
+        android:src="@color/ambient_mode_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/blk_5"
+        android:layout_width="4px"
+        android:layout_height="4px"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="125dp"
+        android:src="@color/ambient_mode_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/blk_6"
+        android:layout_width="4px"
+        android:layout_height="4px"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="125dp"
+        android:src="@color/ambient_mode_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/blk_2"
+        android:layout_width="4px"
+        android:layout_height="4px"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="125dp"
+        android:src="@color/ambient_mode_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/blk_4"
+        android:layout_width="4px"
+        android:layout_height="4px"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="125dp"
+        android:src="@color/ambient_mode_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/blk_1"
+        android:layout_width="4px"
+        android:layout_height="4px"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="125dp"
+        android:src="@color/ambient_mode_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_bk_block"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="81dp"
+        android:src="@android:drawable/ic_menu_revert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_strt_block"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="18dp"
+        android:src="@android:drawable/ic_media_play"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blk_3" />
+
+    <Button
+        android:id="@+id/btn_speed_block"
+        android:layout_width="50dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:text="1"
+        app:layout_constraintStart_toEndOf="@+id/btn_strt_block"
+        app:layout_constraintTop_toBottomOf="@+id/blk_5" />
+
+</android.support.constraint.ConstraintLayout>
